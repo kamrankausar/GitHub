@@ -1,0 +1,29 @@
+Step 1 # Install Git Library on your System
+Step 2 # Clone the Github repo to your local machine
+Step 3 # Create a new file which you want to upload
+Step 4 # Add that file (Temp) to github
+Step 5 # Commit that file to github similar to github website
+Step 6 # Push the file i.e this step actuall sync your file to your github repo
+
+Step 1: Install Git Library on your System
+    $ sudo apt-get update
+    $ sudo apt-get install git
+   Note after installing the git you configure git for account by this command
+   $ git config
+  
+Step 2: Clone the Github repo to your local machine
+$ git clone link_of_git_repo
+
+Step 3: Create a new file which you want to upload first go to downloaded  Directory(git_Repo)
+You can create any file you want
+
+Step 4: Check the status and add that file (Temp) to github
+$ git status
+$ git add file_name
+
+Step 5: Commit that file to github similar to github website
+$ git commit
+
+Step 6: Push the file i.e this step actuall sync your file to your github repo
+$ git push
+(asked for login details)
