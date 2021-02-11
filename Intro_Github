@@ -27,3 +27,5 @@ $ git commit
 Step 6: Push the file i.e this step actuall sync your file to your github repo
 $ git push
 (asked for login details)
+Step 7: If some one update file and what to see (SYNC the git repo)
+$ git pull
